@@ -10,7 +10,8 @@
     "format": "eslint src/**/*.ts --fix",
     "build": "tsc",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "commit": "git-cz"
   },
   "dependencies": {
     "husky": "^8.0.3",
@@ -22,6 +23,8 @@
     "@types/node": "^20.8.2",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.50.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^27.4.2",
@@ -30,5 +33,10 @@
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
