@@ -8,9 +8,11 @@
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "husky": "^8.0.3",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
