@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate-nodejs",
+  "version": "1.0.0",
+  "description": "A NodeJS boilerplate project with TypeScript, Eslint and Prettier",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2"
+  }
+}
