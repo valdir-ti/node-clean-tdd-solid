@@ -10,7 +10,7 @@
     "format": "eslint src/**/*.ts --fix",
     "build": "tsc",
     "prepare": "husky install",
-    "test": "jest",
+    "test": "jest --watch",
     "commit": "git-cz"
   },
   "dependencies": {
